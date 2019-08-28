@@ -17,7 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     		<div class="content">
     			<div class="image group">
 					<div class="grid images_3_of_1">
-						<img src="/images/newsimg1.jpg" alt="" />
+						<img src="/public/images/newsimg1.jpg" alt="" />
 					</div>
 					<div class="grid news_desc">
 						<h3>Lorem Ipsum is simply dummy text </h3>
@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   		</div>	
 		   		<div class="image group">
 					<div class="grid images_3_of_1">
-						<img src="/images/newsimg2.jpg" alt="" />
+						<img src="/public/images/newsimg2.jpg" alt="" />
 					</div>
 					<div class="grid news_desc">
 						<h3>Lorem Ipsum is simply dummy text </h3>
@@ -39,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		   		</div>
 		   		<div class="image group">
 					<div class="grid images_3_of_1">
-						<img src="/images/newsimg3.jpg" alt="" />
+						<img src="/public/images/newsimg3.jpg" alt="" />
 					</div>
 					<div class="grid news_desc">
 						<h3>Lorem Ipsum is simply dummy text </h3>

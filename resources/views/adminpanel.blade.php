@@ -6,7 +6,7 @@ Administration Panel
 @endsection
 
 @section('scripts')
-<script type="text/javascript" src="/js/products.js"></script>
+<script type="text/javascript" src="/public/js/products.js"></script>
 @endsection
 
 @section('main')
@@ -131,7 +131,7 @@ Administration Panel
 			description: $("#toGroupText").val()},
 			function(data, status){
 				var group = JSON.parse(data)
-				console.log(group)
+//				console.log(group)
 			})
 	}
 

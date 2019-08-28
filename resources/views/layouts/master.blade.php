@@ -11,17 +11,17 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
-    <script type="text/javascript" src="/js/App.js"></script> 
-    <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script> 
-    <script type="text/javascript" src="/js/move-top.js"></script>
-    <script type="text/javascript" src="/js/easing.js"></script>
-    <script type="text/javascript" src="/js/startstop-slider.js"></script>
-    <script type="text/javascript" src="/js/master.js"></script>
+    <link href="/public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/public/css/slider.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="/public/js/App.js"></script> 
+    <script type="text/javascript" src="/public/js/jquery-1.7.2.min.js"></script> 
+    <script type="text/javascript" src="/public/js/move-top.js"></script>
+    <script type="text/javascript" src="/public/js/easing.js"></script>
+    <script type="text/javascript" src="/public/js/startstop-slider.js"></script>
+    <script type="text/javascript" src="/public/js/master.js"></script>
     @yield('scripts')
 
     <!-- Fonts -->
@@ -57,7 +57,7 @@
                 </div>
                 <div style="{{$menuFontSize}};" class="account_desc">
                     <ul>
-                        <li><a href="/#">@lang('master.delivery')</a></li>
+                        <!-- <li><a href="/#">@lang('master.delivery')</a></li> -->
                         <li><a href="/#">@lang('master.checkout')</a></li>
                         <li><a href="/#">@lang('master.myaccount')</a></li>
                         <!-- Authentication Links -->
@@ -117,7 +117,7 @@
             </div>
             <div class="header_top">
                 <div class="logo">
-                    <a href="/"><img src="/images/logo.png" alt="" /></a>
+                    <a href="/"><img src="/public/images/logo.png" alt="" /></a>
                 </div>
                   <div class="cart">
                        <p>@lang('master.welcometoourstore') <span>@lang('master.cart'):</span><div id="dd" class="wrapper-dropdown-2"> @lang('master.itemsincart')
@@ -160,7 +160,7 @@
                     <ul class="nav-link">
                         <li id="li_Home_Tab"><a href="/">@lang('master.home')</a></li>
                         <li id="li_About_Tab"><a href="/about">@lang('master.about')</a></li>
-                        <li id="li_Delivery_Tab"><a href="/delivery">@lang('master.delivery')</a></li>
+                        <!-- <li id="li_Delivery_Tab"><a href="/delivery">@lang('master.delivery')</a></li> -->
                         <li id="li_News_Tab"><a href="/news">@lang('master.news')</a></li>
                         <li id="li_Contact_Tab"><a href="/contact">@lang('master.contact')</a></li>
                     <div class="clear"></div>
@@ -186,7 +186,7 @@
                         <li><a href="/about">@lang('master.aboutus')</a></li>
                         <li><a href="/contact">@lang('master.customerservice')</a></li>
                         <li><a href="/#">@lang('master.advancesearch')</a></li>
-                        <li><a href="/delivery">@lang('master.ordersandreturns')</a></li>
+                        <!-- <li><a href="/delivery">@lang('master.ordersandreturns')</a></li> -->
                         <li><a href="/contact">@lang('master.contactus')</a></li>
                     </ul>
                 </div>
@@ -219,11 +219,11 @@
                     <div class="social-icons">
                         <h4>@lang('master.followus')</h4>
                         <ul>
-                            <li><a href="/#" target="_blank"><img src="/images/facebook.png" alt="" /></a></li>
-                            <li><a href="/#" target="_blank"><img src="/images/twitter.png" alt="" /></a></li>
-                            <li><a href="/#" target="_blank"><img src="/images/skype.png" alt="" /> </a></li>
-                            <li><a href="/#" target="_blank"> <img src="/images/dribbble.png" alt="" /></a></li>
-                            <li><a href="/#" target="_blank"> <img src="/images/linkedin.png" alt="" /></a></li>
+                            <li><a href="/#" target="_blank"><img src="/public/images/facebook.png" alt="" /></a></li>
+                            <li><a href="/#" target="_blank"><img src="/public/images/twitter.png" alt="" /></a></li>
+                            <li><a href="/#" target="_blank"><img src="/public/images/skype.png" alt="" /> </a></li>
+                            <li><a href="/#" target="_blank"> <img src="/public/images/dribbble.png" alt="" /></a></li>
+                            <li><a href="/#" target="_blank"> <img src="/public/images/linkedin.png" alt="" /></a></li>
                             <div class="clear"></div>
                         </ul>
                         </div>

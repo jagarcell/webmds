@@ -1,5 +1,6 @@
 <?php
 
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -236,6 +237,7 @@ class MainMenuController extends Controller
         $products = (new Products(['lang' => $lang]))->where('groupid', $group)->with('productsdescriptions')->get();
 
         $prods = array();
+        
 
         foreach ($products as $key => $product) {
             # code...

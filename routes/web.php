@@ -17,9 +17,9 @@ Route::get('/productsingroup', 'MainMenuController@productsingroup');
 
 Route::get('/', 'MainMenuController@welcome');
 
+
 Route::get('/lang/{locale}', function($locale){
 	session(['lang' => $locale]);
-	echo session('lang');
     App::setLocale(session('lang'));
 	return redirect()->back();
 });

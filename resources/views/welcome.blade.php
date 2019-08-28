@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
+
 @section('header')
 <title id="Home_Tab">Home</title>
 @endsection
 @section('scripts')
-<script type="text/javascript" src="/js/welcome.js"></script>
+<script type="text/javascript" src="/public/js/welcome.js"></script>
 @endsection
 
 @section('additional_header')
@@ -53,7 +54,7 @@
                     <div id="mover">
                         <div id="slide-1" class="slide">                                
                             <div class="slider-img">
-                                <a href="/preview"><img src="/images/{{$slideproducts[0]->image}}" alt="learn more" /></a>
+                                <a href="/preview"><img src="/public/images/{{$slideproducts[0]->image}}" alt="learn more" /></a>
                             </div>
                             <div class="slider-text">
                                 <h1>@lang('welcome.clearance')<br><span>@lang('welcome.sale')</span></h1>
@@ -75,13 +76,13 @@
                                 <a href="/preview" class="button">@lang('welcome.shopnow')</a>
                             </div>      
                             <div class="slider-img">
-                                <a href="/preview"><img src="/images/{{$slideproducts[1]->image}}" alt="learn more" /></a>
+                                <a href="/preview"><img src="/public/images/{{$slideproducts[1]->image}}" alt="learn more" /></a>
                             </div>                                                                       
                             <div class="clear"></div>               
                         </div>
                         <div class="slide">                                     
                             <div class="slider-img">
-                                <a href="/preview"><img src="/images/{{$slideproducts[2]->image}}" alt="learn more" /></a>
+                                <a href="/preview"><img src="/public/images/{{$slideproducts[2]->image}}" alt="learn more" /></a>
                             </div>
                             <div class="slider-text">
                                 <h1>@lang('welcome.clearance')<br><span>@lang('welcome.sale')</span></h1>
@@ -115,7 +116,7 @@
             </div>
             <div class="section group">
                 <div class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$newproducts[0]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$newproducts[0]['image']}}" alt="" /></a>
                     <h2>{{$newproducts[0]['productsdescriptions'][0]['description']}} </h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -129,7 +130,7 @@
                  
                 </div>
                 <div class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img  src="/images/{{$newproducts[1]['image']}}" alt="" /></a>
+                    <a href="/preview"><img  src="/public/images/{{$newproducts[1]['image']}}" alt="" /></a>
                     <h2>{{$newproducts[1]['productsdescriptions'][0]['description']}}</h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -142,7 +143,7 @@
                     </div>
                 </div>
                 <div class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$newproducts[2]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$newproducts[2]['image']}}" alt="" /></a>
                     <h2>{{$newproducts[2]['productsdescriptions'][0]['description']}}</h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -155,7 +156,7 @@
                     </div>
                 </div>
                 <div class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$newproducts[3]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$newproducts[3]['image']}}" alt="" /></a>
                     <h2>{{$newproducts[3]['productsdescriptions'][0]['description']}}</h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -179,7 +180,7 @@
             </div>
             <div class="section group">
                 <div style="margin-left: 0%;" class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$featureproducts[0]['image']}}" alt="" /></a>                 
+                    <a href="/preview"><img src="/public/images/{{$featureproducts[0]['image']}}" alt="" /></a>                 
                     <h2>{{$featureproducts[0]['productsdescriptions'][0]['description']}} </h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -192,7 +193,7 @@
                     </div>
                 </div>
                 <div style="margin-left: 0%;" class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$featureproducts[1]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$featureproducts[1]['image']}}" alt="" /></a>
                     <h2>{{$featureproducts[1]['productsdescriptions'][0]['description']}} </h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -205,7 +206,7 @@
                     </div>
                 </div>
                 <div style="margin-left: 0%;" class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$featureproducts[2]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$featureproducts[2]['image']}}" alt="" /></a>
                     <h2>{{$featureproducts[2]['productsdescriptions'][0]['description']}} </h2>
                     <div class="price-details">
                         <div class="price-number">
@@ -218,7 +219,7 @@
                     </div>
                 </div>
                 <div style="margin-left: 0%;" class="grid_1_of_4 images_1_of_4">
-                    <a href="/preview"><img src="/images/{{$featureproducts[3]['image']}}" alt="" /></a>
+                    <a href="/preview"><img src="/public/images/{{$featureproducts[3]['image']}}" alt="" /></a>
                     <h2>{{$featureproducts[3]['productsdescriptions'][0]['description']}} </h2>                  
                     <div class="price-details">
                         <div class="price-number">

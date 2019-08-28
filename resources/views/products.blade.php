@@ -6,7 +6,7 @@
 @endsection
 
 @section('scripts')
-<script type="text/javascript" src="/js/products.js"></script>
+<script type="text/javascript" src="/public/js/products.js"></script>
 @endsection
 
 @section('main')
@@ -46,7 +46,7 @@
                     <!-- IF WE ARE DISPLAYING THE FIRST PRODUCT OF THE ROW THEN WE  
                           APPLY THE ROW'S LEFT MARGIN TO THE ELEMENT -->
                     <div style="margin-left: {{$marginLeft}}%;" class="grid_1_of_4 images_1_of_4">
-                        <a href="/preview"><img src="/images/{{$products[$prodIndex*$gridColumns+$k]['image']}}" alt="" /></a>
+                        <a href="/preview"><img src="/public/images/{{$products[$prodIndex*$gridColumns+$k]['image']}}" alt="" /></a>
                         <h2>{{$p}}</h2>
                         <div class="price-details">
                             <div class="price-number">
@@ -61,7 +61,7 @@
                     @else
                     <!-- IF THIS IS NOT THE FIRST ELEMENT OF THE ROW WE DON'T APPLY LEFT MARGIN -->
                     <div class="grid_1_of_4 images_1_of_4">
-                        <a href="/preview"><img src="/images/{{$products[$prodIndex*$gridColumns+$k]['image']}}" alt="" /></a>
+                        <a href="/preview"><img src="/public/images/{{$products[$prodIndex*$gridColumns+$k]['image']}}" alt="" /></a>
                         <h2>{{$p}}</h2>
                         <div class="price-details">
                             <div class="price-number">

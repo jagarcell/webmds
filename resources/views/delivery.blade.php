@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 @section('header')
 <title id="Delivery_Tab">Delivery</title>
-<script type="text/javascript" src="/js/jquery.accordion.js"></script>
+<script type="text/javascript" src="/public/js/jquery.accordion.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("#posts").accordion({ 
@@ -27,17 +27,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    <div class="content">
 		    	<div class="section group">
 					<div class="grid_1_of_3 images_1_of_3">
-						  <img src="/images/delivery-img1.jpg" alt="" />
+						  <img src="/public/images/delivery-img1.jpg" alt="" />
 						  <h3>Lorem Ipsum is simply dummy text </h3>
 						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
 					<div class="grid_1_of_3 images_1_of_3">
-						  <img src="/images/delivery-img2.jpg" alt="" />
+						  <img src="/public/images/delivery-img2.jpg" alt="" />
 						  <h3>Lorem Ipsum is simply dummy text </h3>
 						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
 					<div class="grid_1_of_3 images_1_of_3">
-						  <img src="/images/delivery-img3.jpg" alt="" />
+						  <img src="/public/images/delivery-img3.jpg" alt="" />
 						  <h3>Lorem Ipsum is simply dummy text </h3>
 						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 					</div>
